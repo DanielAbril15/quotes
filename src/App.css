@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  min-height: 180px;
+  height: auto;
+  background-color: aqua;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 1px 1px 10px rgb(77, 74, 74);
+}
+.card__quote {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.card__quote i {
+  font-size: 60px;
+  margin-right: 16px;
+}
+.card__quote p {
+  text-align: center;
+}
+.card__autor {
+  align-self: flex-end;
+  margin-bottom: 16px;
+}
+.card__button {
+  width: 30px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: none;
+  align-self: flex-end;
+  box-shadow: 1px 1px 10px rgb(77, 74, 74);
+}
+.card__button:hover {
+  box-shadow: 1px 1px 5px rgb(77, 74, 74);
+  cursor: pointer;
+  transition: box-shadow 300ms;
+}
